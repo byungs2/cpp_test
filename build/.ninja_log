@@ -1,0 +1,19 @@
+# ninja log v5
+0	146	1639050588	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+147	184	1639050588	first_cpp	97ceabef7b1c8d5b
+0	150	1639051362	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+150	189	1639051362	first_cpp	97ceabef7b1c8d5b
+1	151	1639052481	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+151	189	1639052481	first_cpp	97ceabef7b1c8d5b
+0	152	1639052503	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+152	190	1639052503	first_cpp	97ceabef7b1c8d5b
+0	150	1639052524	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+150	188	1639052524	first_cpp	97ceabef7b1c8d5b
+1	153	1639052890	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+153	190	1639052890	first_cpp	97ceabef7b1c8d5b
+0	157	1639053762	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+157	195	1639053762	first_cpp	97ceabef7b1c8d5b
+1	157	1639054123	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+158	196	1639054123	first_cpp	97ceabef7b1c8d5b
+0	159	1639054180	first_cpp@exe/first_cpp.cc.o	1e8349ab04f39b87
+159	197	1639054180	first_cpp	97ceabef7b1c8d5b

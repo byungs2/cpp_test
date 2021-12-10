@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/workspace/f_project/build",
+    "command": "c++ -Ifirst_cpp@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -g -Wno-unused-parameter -D_GLIBCXX_USE_CXX11_ABI=0 -MD -MQ 'first_cpp@exe/first_cpp.cc.o' -MF 'first_cpp@exe/first_cpp.cc.o.d' -o 'first_cpp@exe/first_cpp.cc.o' -c ../first_cpp.cc",
+    "file": "../first_cpp.cc"
+  }
+]

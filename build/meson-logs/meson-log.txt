@@ -1,0 +1,74 @@
+Build started at 2021-12-09T11:49:44.991555
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.50.1
+Source dir: /home/workspace/f_project
+Build dir: /home/workspace/f_project/build
+Build type: native build
+Project name: first_cpp
+Project version: 0.1
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/workspace/f_project/build/meson-private/sanitycheckcpp.cc -o /home/workspace/f_project/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/workspace/f_project/build/meson-private/sanitycheckcpp.exe
+Native C++ compiler: c++ (gcc 7.5.0 "c++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Running compile:
+Working directory:  /tmp/tmpmc13s9e4
+Command line:  c++ /tmp/tmpmc13s9e4/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmc13s9e4/output.obj -O0 -fpermissive -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-unused-parameter -Wunused-parameter: YES
+Running compile:
+Working directory:  /tmp/tmphendo9kb
+Command line:  c++ /tmp/tmphendo9kb/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmphendo9kb/output.obj -O0 -fpermissive -D_GLIBCXX_USE_CXX11_ABI=0 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -D_GLIBCXX_USE_CXX11_ABI=0: YES
+Adding test "basic"
+Build targets in project: 1
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpppm3qgs2
+Command line:  c++ /tmp/tmpppm3qgs2/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpppm3qgs2/output.obj -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES
+Running compile:
+Working directory:  /tmp/tmpmf7qpziv
+Command line:  c++ /tmp/tmpmf7qpziv/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmf7qpziv/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
